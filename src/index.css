@@ -1,13 +1,190 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@tailwind  base;
+@tailwind components;
+@tailwind utilities;
+*{
+    /* border: 1px solid red; */
+}
+body{
+    /* overflow-x: hidden ; */
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.App{
+    min-height: 200vh;
+}
+li{
+    text-decoration: none;
+    list-style: none;
+}
+a{
+    text-decoration: none ;
+
+}
+.flex-all{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.flex-all-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.the-amazing-shap{
+    z-index: 10;
+    border-radius: 15px;
+    clip-path:polygon(100% 0, 100% 64%, 26% 100%, 0 72%, 0 0);
+   
+}
+.geez{
+    font-weight: 700;
+    width: fit-content;
+    padding: 10px 25px;
+    position: relative;
+}
+.logo-txt{
+    position: absolute;
+    rotate: 270deg;
+    top: 30%;
+    right: 42%;
+    z-index: 1;
+}
+.shoes{
+    position: absolute;
+    width: 550px;
+    rotate: -11.72deg;
+    top: -130px;
+    z-index: 2;
+    
+}
+.circle{
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    transition: all .4s ease-in-out;
+    cursor: pointer;
+
+}
+.circle:nth-child(1){
+    
+    left: 70px;
+    background: blue;
+
+}
+.circle:nth-child(2){
+    right: 70px;
+    background: burlywood;
+    border: 3px solid #FEFAE0;
+}
+.circle:nth-child(3){
+    background:black;
+}
+.color-cont{
+       position: absolute;
+       top: 50%;
+       right: 10%;
+}
+.bg{
+   height: 80lvh;
+}
+
+.bg2{
+    opacity: 0.4;
+    filter: blur(0px);
+    background-image: url('components/images/bg-sectraction.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.glasscard{
+    /* From https://css.glass */
+    background: rgba(40, 54, 24, 0.13);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(6.9px);
+    -webkit-backdrop-filter: blur(6.9px);
+    border: 2px solid #283618;
+}
+div.scrollmenu {
+    height: fit-content;
+    padding: 30px 10px;
+    overflow: auto;
+    white-space: nowrap;
+  }
+  
+  div.scrollmenu > div {
+    background-color: #333;
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+    margin: 0 10px;
+    width: 150px;
+    height: 150px;
+  }
+  @media (min-width: 768px) {
+    div.scrollmenu > div {
+        width: 180px;
+        height: 180px;
+      }
+  }
+  @media (min-width: 976px) {
+    div.scrollmenu > div {
+        width: 220px;
+        height: 220px;
+      }
+  }
+  @media (min-width: 1440px) {
+    div.scrollmenu > div {
+        width: 300px;
+        height: 300px;
+      }
+  }
+
+  @media (min-width: 1640px) {
+    div.scrollmenu > div {
+        width: 450px;
+        height: 450px;
+      }
+  }
+
+
+@media (min-width:744px) {
+    .logo-txt{
+        top: 18%;
+        right: 8rem;
+    }
+    .shoes{
+        top: -80px;
+    }
+    .circle{
+        width: 25px;
+        height: 25px;
+    }
+    .color-cont{
+        top: 40%;
+        right: 10%;
+ }
+ .circle:nth-child(2){
+    border: 2px solid #FEFAE0;
+}
+}
+@media (min-width:1240px) {
+    .logo-txt{
+        top: 18%;
+        right:28%;
+    }
+    .shoes{
+        top: -130px;
+    }
+    .circle{
+        width: 40px;
+        height: 40px;
+    }
+    .color-cont{
+        top: 50%;
+ }
+ .circle:nth-child(2){
+    border: 3px solid #FEFAE0;
+}
 }
