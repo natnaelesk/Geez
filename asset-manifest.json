@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/Geez/static/css/main.3dac85d3.css",
+    "main.js": "/Geez/static/js/main.4daacdd7.js",
+    "static/js/592.b34fa948.chunk.js": "/Geez/static/js/592.b34fa948.chunk.js",
+    "static/media/lighter.jpeg": "/Geez/static/media/lighter.942da9bbe64658d50481.jpeg",
+    "static/media/bg-sectraction.png": "/Geez/static/media/bg-sectraction.f7ebc3de64102decc3ab.png",
+    "static/media/shoes.png": "/Geez/static/media/shoes.de84096f1a0809f6af33.png",
+    "static/media/17660525XP_14_f-removebg-preview.png": "/Geez/static/media/17660525XP_14_f-removebg-preview.fb3b12923a1f633ac553.png",
+    "static/media/shopping-cart.svg": "/Geez/static/media/shopping-cart.1ecf81a4c0905f26988f3eb747abc3d4.svg",
+    "static/media/search.svg": "/Geez/static/media/search.19bc40c4d3ebafd594dfd3267cdfe3e5.svg",
+    "static/media/call.svg": "/Geez/static/media/call.072fc79bd19b5fbcb90856a5403b661f.svg",
+    "index.html": "/Geez/index.html",
+    "static/media/profile.svg": "/Geez/static/media/profile.4b6f7396a421c7fcee6ca90fc0024217.svg",
+    "static/media/menu-svgrepo-com.svg": "/Geez/static/media/menu-svgrepo-com.22a05970d93e0f98250a9ec63d516662.svg",
+    "main.3dac85d3.css.map": "/Geez/static/css/main.3dac85d3.css.map",
+    "main.4daacdd7.js.map": "/Geez/static/js/main.4daacdd7.js.map",
+    "592.b34fa948.chunk.js.map": "/Geez/static/js/592.b34fa948.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3dac85d3.css",
+    "static/js/main.4daacdd7.js"
+  ]
+}
