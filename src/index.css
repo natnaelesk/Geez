@@ -1,4 +1,4 @@
-@tailwind  base;
+@tailwind   base;
 @tailwind components;
 @tailwind utilities;
 *{
@@ -105,6 +105,7 @@ a{
     border: 2px solid #283618;
 }
 div.scrollmenu {
+
     height: fit-content;
     padding: 30px 10px;
     overflow: auto;
@@ -112,26 +113,95 @@ div.scrollmenu {
   }
   
   div.scrollmenu > div {
-    background-color: #333;
+    width: 200px;
+    height: 300px;
     display: inline-block;
     color: white;
     text-align: center;
-    padding: 14px;
     text-decoration: none;
     margin: 0 10px;
-    width: 150px;
-    height: 150px;
+    /* border: 1px solid red; */
+    overflow: hidden;
   }
+  .place::placeholder {
+    color: #FEFAE0;
+    font-size: 10px;
+    opacity: 1; /* Firefox */
+  }
+  
+ .place::-ms-input-placeholder { /* Edge 12 -18 */
+    color: #FEFAE0;
+  }
+  .me{
+    color: transparent;
+    position: relative;
+
+  }
+  .gg{
+    /* border: 1px solid red; */
+    background: #000;
+    position: relative;
+    z-index: 10;
+    height: 100px; 
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+  }
+  .contt{
+    position: absolute;
+    top: 16px;
+    left: 128px;
+    width: 80px;
+    height: 18px;
+}
+  .div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+.bg-p{
+    background-color: #000;
+}
+.div h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    font-size: 12px;
+    color: white;
+    position: relative;
+    z-index: 2;
+    mix-blend-mode: multiply;
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.div video{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    object-fit: cover;
+} 
+.shh{
+    animation: flote 5s ease-in-out  infinite ;
+
+}
+
   @media (min-width: 768px) {
     div.scrollmenu > div {
-        width: 180px;
-        height: 180px;
+        width: 190px;
+        height: 300px;
       }
   }
   @media (min-width: 976px) {
     div.scrollmenu > div {
-        width: 220px;
-        height: 220px;
+        width: 212px;
+        height: 321px;
       }
   }
   @media (min-width: 1440px) {
@@ -143,8 +213,8 @@ div.scrollmenu {
 
   @media (min-width: 1640px) {
     div.scrollmenu > div {
-        width: 450px;
-        height: 450px;
+        width: 322px;
+        height: 450px; 
       }
   }
 
@@ -188,3 +258,7 @@ div.scrollmenu {
     border: 3px solid #FEFAE0;
 }
 }
+
+
+
+

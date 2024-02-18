@@ -1,10 +1,9 @@
-import baner1 from "./images/lighter.jpeg"
 
-const Baner = () => {
+const Baner = ({banner}) => {
  
     return ( 
         <section className="w-screen h-44 md:h-64 lg:h-mdsclHT flex-all-center relative overflow-hidden    " >
-            <img alt="banner" src={baner1} className="w-full bg-cover bg-center  absolute"/>
+            <img alt="banner" src={banner} className="w-full bg-cover bg-center  absolute"/>
 
 
         </section>
