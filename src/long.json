@@ -1,0 +1,45 @@
+[
+    {
+        "id":0, 
+        "name":"./images/boots/boots one/",
+        "img":"brown",
+        "color":[
+            "brown",
+            "black",
+            "gray",
+            "blue"
+        ]
+    }
+    , 
+    {
+        "id":1, 
+        "name":"./images/boots/boots two/",
+        "img":"brown",
+        "color":[
+            "brown",
+            "black"
+        ]
+    }
+    , 
+    {
+        "id":2, 
+        "name":"./images/boots/boots three/",
+        "img":"brown",
+        "color":[
+            "brown",
+            "black"
+        ]
+    }
+    , 
+    {
+        "id":3, 
+        "name":"./images/boots/boots four/",
+        "img":"brown",
+        "color":[
+            "brown",
+            "black",
+            "blue"
+        ]
+    }
+   
+]

@@ -35,8 +35,8 @@ const Footer = () => {
                 <div className="w-1/4 h-0.5 bg-secondary-white"></div>
                 <div className="w-1/2   ">
                 <h1 className=" border-3 flex  text-ptextsm relative border-3  z-10">@2024.This website designed and depeloped by 
-                <div class="contt">
-                    <div class="div">
+                <div className="contt">
+                    <div className="div">
                         <h1 className=" bg-p font-semibold capitalize">#natnael Esk</h1>
                     <video src={video} id="myVideo " loop autoPlay muted ></video>
                     </div>

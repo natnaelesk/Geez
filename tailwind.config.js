@@ -40,7 +40,8 @@ module.exports = {
       'black':"#030303",
       'blue': "#5286C5",
       'green':"#3C7474",
-      'brown':"#E89461"
+      'brown':"#E89461",
+      'gray':"#A0A0A0"
     },
     fontFamily: {
       sans: ['Graphik', 'sans-serif'],

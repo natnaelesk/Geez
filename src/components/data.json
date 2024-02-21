@@ -1,0 +1,28 @@
+[
+    {
+        "id":0,
+        "img":"./images/longBoots/long boots one/brown.jpg",
+        "img-color-0":"./images/longBoots/long boots one/brown.jpg",
+        "img-color-1":"./images/longBoots/long boots one/black.jpg",
+        "img-color-2":"./images/longBoots/long boots one/lightblue.jpg"
+    
+    },
+
+    {
+        "id":1,
+        "img":"./images/longBoots/long boots one/brown.jpg",
+        "img-color-0":"./images/longBoots/long boots one/brown.jpg",
+        "img-color-1":"./images/longBoots/long boots one/black.jpg",
+        "img-color-2":"./images/longBoots/long boots one/lightblue.jpg"
+    
+    },
+    {
+        "id":2,
+        "img":"./images/longBoots/long boots two/brown.jpg",
+        "img-color-0":"./images/longBoots/long boots two/brown.jpg",
+        "img-color-1":"./images/longBoots/long boots two/black.jpg",
+        "img-color-2":"./images/longBoots/long boots two/brown.jpg"
+    
+    }
+   
+]
