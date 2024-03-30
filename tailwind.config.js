@@ -5,14 +5,14 @@ module.exports = {
   ],
   theme: {
     screens: {
-      smm:"0",
+      smm:"0px",
       sm: '480px',
       md: '768px',
       lg: '976px',
       xl: '1440px',
     },
     fontSize:{
-      smmm:"8px",
+      smmm:"10px",
       smm:"13px",
       lgg:"16px",
       navfont:"18px",
@@ -29,6 +29,7 @@ module.exports = {
       textsm:"24px",
       ptextsm:"10px",
       sometxt:"21px",
+      ne:"8px"
       
     },
     colors: {
@@ -47,7 +48,7 @@ module.exports = {
       sans: ['Graphik', 'sans-serif'],
       serif: ['Merriweather', 'serif'],
       playPlayfair :"Playfair Display",
-      sourcePro :"Source Code Pro",
+      sourcePro :"Poppins",
       amahricfont:"Noto Serif Ethiopic",
     },
     extend: {
@@ -67,11 +68,19 @@ module.exports = {
         'iconHT':"600px",
         'iconWDsmall':"300px",
         'iconHTsmall':"400px",
-        'tablet':"1000px",
+        'tablet':"750px",
         'someWD':"800px",
+        'mobile':"800px",
+        'cardWD':"243px",
+        'cardHT':"310px",
+        'cardLgWD':"350px",
+        'cardLgHT':"425px",
+        'cardxlWD':"680px",
+        'cardxlHT':"800px"
       },
       borderRadius: {
         '4xl': '2rem',
+        '8xl':'9rem'
       }
     }
   },

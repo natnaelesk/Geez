@@ -3,6 +3,7 @@ import shoe from "./images/brwon.png"
 import blue from "./images/blue.png"
 import green from "./images/green.png"
 import black from "./images/black.png"
+import { Link } from "react-router-dom/cjs/react-router-dom";
 
 
 const Hero = (props) => {
@@ -46,7 +47,7 @@ const Hero = (props) => {
     }
 
     return ( 
-        <main className="text-priymary m-0 h-lgsclHT md:h-tablet lg:h-screen  relative md:flex-row-reverse md:items-center  w-full flex justify-center flex-col pb-32   px-6 md:px-10 xl:px-xlPadd lg:px-20  lg:justify-between">
+        <main className="text-priymary m-0 h-mobile md:h-tablet lg:h-screen  relative md:flex-row-reverse md:items-center  w-full flex justify-center flex-col pb-32   px-6 md:px-10 xl:px-xlPadd lg:px-20  lg:justify-between">
             <div className=" w-full  lg:w-1/2  relative flex flex-col justify-center items-center  gap-3  ">
                 
                 {/* the icon */}
@@ -55,12 +56,12 @@ const Hero = (props) => {
                     </div>
                     <h1 className="  text-secondary-white  uppercase font-playPlayfair absolute -rotate-90 text-smHero top-20  -left-11 xl:left-0 xl:top-40 lg:left-32 lg:top-56 lg:text-mdfont xl:text-logo z-20 ">Geez </h1> 
                          <div className="absolute top-1/2 right-16 text-center lg:right-60 lg:top-80 xl:right-56 xl:top-1/2  z-20 ">
-                            <p className="font-playPlayfair text-secondary-white coll my-1 lg:text-pHero xl:text-color relative  z-20 " >Color</p>
+                            <p className="font-playPlayfair text-priymary coll my-1 lg:text-pHero xl:text-textsm  relative  z-20 " >View Colors</p>
                             <div className="flex justify-center items-center gap-2">
                            
-                                <div onClick={()=>{ changePic('x')}}  className=" w-5 h-5  rounded-full bg-brown" ></div>
-                                <div onClick={()=>{ changePic('black')}}  className=" w-5 h-5  rounded-full bg-black" ></div>
-                                <div onClick={()=>{ changePic('blue')}}  className=" w-5 h-5  rounded-full bg-blue" ></div>
+                                <div onClick={()=>{ changePic('x')}}  className=" w-6 h-6  rounded-full bg-brown" ></div>
+                                <div onClick={()=>{ changePic('black')}}  className=" w-6 h-6  rounded-full bg-black" ></div>
+                                <div onClick={()=>{ changePic('blue')}}  className=" w-6 h-6  rounded-full bg-blue" ></div>
                                 {/* <div onClick={()=>{ changePic('green')}} className=" w-5 h-5 rounded-full bg-green"></div> */}
 
                             </div>
@@ -68,13 +69,16 @@ const Hero = (props) => {
                     <img src={img} style={{rotate:"-20.28deg"}} alt="" className="absolute w-64 -top-11 z-20 left-3 shh lg:w-mdsclWD lg:left-48 lg:top-16 xl:-top-10 xl:w-mdsclHT xl:left-32" />
                 </div>
             </div>
-            <div className=" h-1/2 relative z-20  md:text-start  md:justify-center  justify-center items-center text-center font-playPlayfair flex flex-col gap-5" >
+            <div className="xl:w-1/2 xl:h-full h-1/2 relative z-20  md:text-start  md:justify-center  justify-center xl:items-start items-center text-center font-playPlayfair flex flex-col gap-3 md:gap-5  " >
                     <div className="flex flex-col  md:mr-auto   gap-1 leading-none  uppercase ">
-                       <h1 className="text-mdsm font-semibold  font-amahricfont uppercase xl:text-smHero lg:text-mdlg">ግዕዝ</h1>
-                    <h1 className="text-mdlg font-bold uppercase xl:text-lghero lg:text-smHero">Ge'ez Shoes {props.image}</h1> 
+                       <h1 className="text-mdsm font-semibold  font-amahricfont uppercase xl:text-smHero md:mr-auto lg:text-mdlg xl:relative xl:top-8 ">ግዕዝ</h1>
+                    <h1 className="text-mdlg font-bold md:text-left uppercase xl:text-mdfont lg:text-smHero">Ge'ez Shoes {props.image}</h1> 
                     </div>
-                    <p className=" opacity-60 font-sourcePro w-full text-smm xl:text-pHero lg:text-smm ">Ge’ez shoes brings you comfortable genuine leather and casual shoes..come shop with us</p>
-                    <button className="font-semibold  md:mr-auto w-fit px-8 py-2 bg-dark-brown text-secondary-white roundelgherod lg:px-8 lg:py-2 xl:px-16 xl:py-5 xl:text-pHero lg:text-smm rounded-md ">Explore</button>
+                    <p className=" font-normal opacity-60 font-sourcePro w-full text-smm  xl:text-textsm md:text-start lg:text-smm xl:mb-5">Elevate your style with Ge’ez Shoes' genuine leather and casual footwear. Experience comfort like never before. Step into fashion-forward living today.</p>
+                    <Link to="/collection">
+                        <button className="font-semibold  md:mr-auto w-fit px-9 py-3 bg-dark-brown text-secondary-white roundelgherod lg:px-8 lg:py-2 xl:px-16 xl:py-5 md:text-lgg  xl:text-pHero lg:text-smm rounded-md ">Explore</button>
+                    
+                    </Link>
                 </div>
             <div className="bg2 absolute top-0 left-0 w-full h-full"></div>
         </main>

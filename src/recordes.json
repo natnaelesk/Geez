@@ -1,6 +1,286 @@
 [
     {
-        "id":1,
-        "title":"Test",
-        "img":"./components/images/pexels-terje-sollie-298864.jpg"   }
+        "title":"Long Boots Collection",
+        "bannerPic": "./images/lighter.jpeg" ,
+        "description":"Treat your feet to the best with our Ge’ez leather long boots. Handcrafted with love and attention to detail, these boots are sure to become your new favorite✨",
+        "btn":"Explore Collection"
+    }
+    ,
+
+[
+    {
+        "id":0, 
+        "name":"./images/boots/boots one/",
+        "img":"brown",
+        "color":[
+            "brown",
+            "black",
+            "gray",
+            "blue"
+        ],
+        "title":"Long Boots ",
+        "like":"0"
+
+
+    }
+
+    
+    , 
+    {
+        "id":1, 
+        "name":"./images/boots/boots two/",
+        "img":"brown",
+        "color":[
+            "brown",
+            "black"
+        ],
+        "title":"Long Boots ",
+        "like":"0"
+    }
+    , 
+    {
+        "id":2, 
+        "name":"./images/boots/boots three/",
+        "img":"brown",
+        "color":[
+            "brown",
+            "black"
+        ],
+        "title":"Long Boots ",
+        "like":"0"
+    }
+    , 
+    {
+        "id":3, 
+        "name":"./images/boots/boots four/",
+        "img":"brown",
+        "color":[
+            "brown",
+            "black",
+            "blue"
+        ],
+        "title":"Long Boots ",
+        "like":"0"
+    },
+    {
+        "id":4, 
+        "name":"./images/boots/boots five/",
+        "img":"brown",
+        "color":[
+            "brown",
+            "black"
+        ],
+        "title":"Long Boots ",
+        "like":"0"
+    }
+    ,
+    {
+        "id":5, 
+        "name":"./images/boots/boots color less/",
+        "img":"six",
+        "color":[
+        ],
+        "title":"Long Boots",
+        "like":"0"
+    }
+    ,
+    {
+        "id":6, 
+        "name":"./images/boots/boots color less/",
+        "img":"7",
+        "color":[
+        ],
+        "title":"Long Boots ",
+        "like":"0"
+    }
+    ,
+    {
+        "id":7, 
+        "name":"./images/boots/boots color less/",
+        "img":"8",
+        "color":[
+        ],
+        "title":"Long Boots ",
+        "like":"0"
+    }
+    ,
+    {
+        "id":8, 
+        "name":"./images/boots/boots color less/",
+        "img":"9",
+        "color":[
+        ],
+        "title":"Long Boots ",
+        "like":"0"
+    } ,
+    {
+        "id":9, 
+        "name":"./images/boots/boots color less/",
+        "img":"10",
+        "color":[
+        ],
+        "title":"Long Boots ",
+        "like":"0"
+    } ,
+    {
+        "id":10, 
+        "name":"./images/boots/boots color less/",
+        "img":"11",
+        "color":[
+        ],
+        "title":"Long Boots ",
+        "like":"0"
+    } ,
+    {
+        "id":11, 
+        "name":"./images/boots/boots color less/",
+        "img":"12",
+        "color":[
+        ],
+        "title":"Long Boots ",
+        "like":"0"
+    } ,
+    {
+        "id":12, 
+        "name":"./images/boots/boots color less/",
+        "img":"13",
+        "color":[
+        ],
+        "title":"Long Boots ",
+        "like":"0"
+    } ,
+    {
+        "id":13, 
+        "name":"./images/boots/boots color less/",
+        "img":"14",
+        "color":[
+        ],
+        "title":"Long Boots ",
+        "like":"0"
+    } 
+   
+]
+,
+{
+    "title":"Casual Shoes Collection",
+    "bannerPic": "./images/pexels-terje-sollie-298864.jpg" ,
+    "description":"we’ve got a style for every men. Whether you’re looking for a new go-to shoe or something special to add to your wardrobe, our leather shoes are sure to please.",
+    "btn":"Explore Collection"
+    
+  }
+  ,
+[
+    {
+        "id":0, 
+        "name":"./images/casual/casual one/",
+        "img":"brown",
+        "color":[
+            "brown",
+            "black"
+        ],
+        "title":"Casual Shoes",
+        "like":"0"
+    }
+    , 
+    {
+        "id":1, 
+        "name":"./images/casual/casual two/",
+        "img":"brown",
+        "color":[
+            "brown",
+            "black"
+        ],
+        "title":"Casual Shoes",
+        "like":"0"
+    }
+    , 
+    {
+        "id":2, 
+        "name":"./images/casual/casual three/",
+        "img":"brown",
+        "color":[
+            "brown",
+            "black"
+        ],
+        "title":"Casual Shoes",
+        "like":"0"
+    }
+    , 
+    {
+        "id":3, 
+        "name":"./images/casual/casual four/",
+        "img":"brown",
+        "color":[
+            "brown",
+            "black"
+        ],
+        "title":"Casual Shoes",
+        "like":"0"
+    },
+    
+    {
+        "id":4, 
+        "name":"./images/casual/casual color less/",
+        "img":"5",
+        "color":[
+        ],
+        "title":"Casual Shoes",
+        "like":"0"
+    },
+    {
+        "id":5, 
+        "name":"./images/casual/casual color less/",
+        "img":"6",
+        "color":[
+        ],
+        "title":"Casual Shoes",
+        "like":"0"
+    }
+    ,
+    {
+        "id":6, 
+        "name":"./images/casual/casual color less/",
+        "img":"7",
+        "color":[
+        ],
+        "title":"Casual Shoes",
+        "like":"0"
+    } ,
+    {
+        "id":7, 
+        "name":"./images/casual/casual color less/",
+        "img":"8",
+        "color":[
+        ],
+        "title":"Casual Shoes",
+        "like":"0"
+    } ,
+    {
+        "id":8, 
+        "name":"./images/casual/casual color less/",
+        "img":"9",
+        "color":[
+        ],
+        "title":"Casual Shoes",
+        "like":"0"
+    } ,
+    {
+        "id":9, 
+        "name":"./images/casual/casual color less/",
+        "img":"10",
+        "color":[
+        ],
+        "title":"Casual Shoes",
+        "like":"0"
+    } ,
+    {
+        "id":10, 
+        "name":"./images/casual/casual color less/",
+        "img":"11",
+        "color":[
+        ],
+        "title":"Casual Shoes",
+        "like":"0"
+    }   
+]
 ]

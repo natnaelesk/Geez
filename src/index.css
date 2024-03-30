@@ -3,13 +3,18 @@
 @tailwind utilities;
 *{
     /* border: 1px solid red; */
+    -webkit-user-drag: none;
 }
 body{
-    /* overflow-x: hidden ; */
 }
 
 .App{
-    min-height: 200vh;
+    min-height: 100vh;
+    /* overflow-x: hidden ; */
+}
+
+.shadow-mmd{
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25) ;
 }
 li{
     text-decoration: none;
@@ -86,15 +91,14 @@ a{
 .bg{
    height: 80lvh;
 }
-
 .bg2{
     opacity: 0.4;
     filter: blur(0px);
-    background-image: url('components/images/bg-sectraction.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
+
 .glasscard{
     /* From https://css.glass */
     background: rgba(40, 54, 24, 0.13);
@@ -190,24 +194,85 @@ div.scrollmenu {
     animation: flote 5s ease-in-out  infinite ;
 
 }
+.trio{
+    rotate: 180deg ;
+    width: 19px;
+    height: 15px;
+    clip-path: polygon(50% 1%, 0% 100%, 100% 100%);
+}
+.wag{
+    width:"243px";
+    height:"307.17px"
+}
+.glass{
+    background: rgba(0, 0, 0, 0.24);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(7.1px);
+    -webkit-backdrop-filter: blur(7.1px);
+}
+.transitio{
+    transition: all .8s ease;
+}
+#anima{
+    transition: all 0.5s ease-out !important;
+    display: none;
+}
+@media (max-width : 975px ) {
+    #anima{
+        transition: all 0.5s ease-out !important;
+        display: unset;
+        height: 100vh;
+        position: fixed;
+        top: 0;
+        right: 0;
+    }
+   
+}
+@media (min-width : 10px ) {
+    .bg2{
+        background-image: url('components/images/bg-sectraction.png');
+
+    }
+    .container{
+        max-width: fit-content;
+    }
+    
+}
 
   @media (min-width: 768px) {
+    .trio{
+        width: 29px;
+        height: 25px;
+    }
     div.scrollmenu > div {
         width: 190px;
         height: 350px;
       }
+      .grid-cols-2w{
+        display: grid;
+        grid-template-columns: 243px 243px ;
+    }
   }
   @media (min-width: 976px) {
     div.scrollmenu > div {
         width: 212px;
         height: 390px;
       }
+      .grid-cols-2w{
+        display: grid;
+        grid-template-columns: 243px 243px 243px ;
+    }
   }
   @media (min-width: 1440px) {
     div.scrollmenu > div {
         width: 300px;
         height: 450px;
       }
+      .grid-cols-2w{
+        display: grid;
+        grid-template-columns: 350px 350px 350px ;
+    }
   }
 
   @media (min-width: 1640px) {
@@ -216,6 +281,14 @@ div.scrollmenu {
         height: 500px;
          
       }
+      .bg2{
+        opacity: 0.4;
+        filter: blur(0px);
+        background-image: none;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
   }
 
 
@@ -261,6 +334,7 @@ div.scrollmenu {
 
 
 
+
 .blue{
  background: #6188ED;
 }
@@ -273,4 +347,5 @@ background: #030303;
 .brown{
 background: #E89461;
 }
+
 

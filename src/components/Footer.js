@@ -1,53 +1,132 @@
-import { useEffect } from "react";
-import img from "./images/logo.png"
-import video from "./images/video-2.mp4"
+import React from 'react';
+import { Link } from "react-router-dom/cjs/react-router-dom.min";
+
 const Footer = () => {
-    useEffect(()=>{
-        document.getElementsByTagName("video").playbackRate = 15;
-    },[])
+
      
     return ( 
-        <section className="px-midPadd relative w-full text-center text-secondary-white h-iconHT bg-p flex flex-col justify-start items-center">
-            <img src={img} alt="" className="h-56 border- " />
-            <div className="flex gap-20 font-sourcePro text-sometxt">
-                <div className="flex flex-col gap-4">
-                <li>About Us</li>
-                <li>About Us</li>
-                <li>About Us</li>
-                </div>
-                <div className="flex flex-col gap-4">
-                <li>About Us</li>
-                <li>About Us</li>
-                <li>About Us</li>
-                </div>
-            </div>
-            <div className="flex flex-col mt-11 w-full ">
-                <h4>Join us</h4>
-                <div className="w-full relative h-14 flex justify-center items-center">
-                <input type="email" name="" id="" className="w-full  h-full rounded-full bg-dark-brown text-center font-sourcePro text-secondary-white place" placeholder="ENTER YOUR EMAIL" />
-                <div className="w-11 h-11 rounded-full absolute bg-priymary  right-4">
-                    <img src={img} alt="" />
-                </div>
-                </div>
-                
-            </div>
-            <div className="absolute h-32 bottom-0 w-full flex justify-between items-center text-left ">
-                <div className="w-1/4 h-0.5 bg-secondary-white"></div>
-                <div className="w-1/2   ">
-                <h1 className=" border-3 flex  text-ptextsm relative border-3  z-10">@2024.This website designed and depeloped by 
-                <div className="contt">
-                    <div className="div">
-                        <h1 className=" bg-p font-semibold capitalize">#natnael Esk</h1>
-                    <video src={video} id="myVideo " loop autoPlay muted ></video>
-                    </div>
-                </div>
-                </h1>
-                </div>
-                <div className="w-1/4 h-0.5 bg-secondary-white"></div>
-            </div>
+        <div style={{color:"#FEFAE0 !important" }} className="font-playPlayfair ">     
+        {/* <!-- Remove the container if you want to extend the Footer to full width. --> */}
+        <div className=" mt-5">
+            {/* <!-- Footer --> */}
+            <footer
+          className="text-center text-lg-start text-dark"
+          style={{backgroundColor: "#283618"}}
+          >
+    {/* <!-- Section: Social media --> */}
+    <section
+             className="d-flex justify-content-between p-4 text-white"
+             style={{backgroundColor: "#DDA15E"}}
+             >
+      {/* <!-- Left --> */}
+      <div className="me-5 text-priymary">
+        <span>This is Demo Website Testing Only</span>
+      </div>
+      {/* <!-- Left -->
+
+      <!-- Right --> */}
+      <div className='hidden '>
+        <Link to="/" className="text-white me-4">
+          <i className="fab fa-facebook-f"></i>
+        </Link>
+        <Link to="/" className="text-white me-4">
+          <i className="fab fa-twitter"></i>
+        </Link >
+        <Link to="/"className="text-white me-4">
+          <i class="fab fa-google"></i>
+        </Link >
+        <Link to="/" className="text-white me-4">
+          <i class="fab fa-instagram"></i>
+        </Link >
+        <Link to="/" className="text-white me-4">
+          <i className="fab fa-linkedin"></i>
+        </Link >
+        <Link to="/" className="text-white me-4">
+          <i class="fab fa-github"></i>
+        </Link >
+      </div>
+      {/* <!-- Right --> */}
+    </section>
+    <section  className=" text-secondary-white">
+      <div className="container text-center text-md-start mt-5">
+        
+        <div  className="row mt-3">
+          <div className="col-md-3 col-lg-4 col-xl-3 md:mx-auto mb-4">
             
-        </section>
-     );
+            <h6 className="text-uppercase fw-bold">Ge'ez Shoes</h6>
+            <hr
+                className="mb-4 mt-0 d-inline-block mx-auto"
+                style={{width: "60px", backgroundColor:" #7c4dff", height: "2px"}}
+                />
+            <p className="font-sourcePro">
+              Here you can use rows and columns to organize your footer
+              content. Lorem ipsum dolor sit amet, consectetur adipisicing
+              elit.
+            </p>
+          </div>
+          <div className="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+           
+            <h6 className="text-uppercase fw-bold">Products</h6>
+            <hr
+                className="mb-4 text-secondary-white mt-0 d-inline-block mx-auto"
+                style={{width: "60px", backgroundColor: "#7c4dff", height: "2px"}}
+                />
+            <p>
+              <a href="#!" className="font-sourcePro">Boots</a>
+            </p>
+            <p>
+              <a href="#!" className="font-sourcePro">Casual</a>
+            </p>
+          </div>
+          <div className="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+            
+            <h6 className="text-uppercase fw-bold">Useful links</h6>
+            <hr
+                className="mb-4 mt-0 d-inline-block mx-auto"
+                style={{width: "60px", backgroundColor: "#7c4dff" , height: "2px"}}
+                />
+            <p>
+              <a href="#!" className="font-sourcePro text-secondary-white">Your Account</a>
+            </p>
+            <p>
+              <a href="#!" className=" font-sourcePro">Become an Affiliate</a>
+            </p>
+            <p>
+              <a href="#!" className="font-sourcePro">Shipping Rates</a>
+            </p>
+            <p>
+              <a href="#!" className="font-sourcePro">Help</a>
+            </p>
+          </div>
+          <div className=" font-sourcePro col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+            
+            <h6 className="text-uppercase fw-bold font-playPlayfair">Contact</h6>
+            <hr
+                className="mb-4 mt-0 d-inline-block mx-auto"
+                style={{width: "60px" ,backgroundColor: "#7c4dff", height: "2px"}}
+                />
+            <p><i className="fas fa-home mr-3 "></i> Adis Abeba, NY 10012, US</p>
+            <p><i className="fas fa-envelope mr-3"></i> info@example.com</p>
+            <p><i className="fas fa-phone mr-3"></i> + 251 900 000 000 </p>
+            <p><i className="fas fa-print mr-3"></i> + 251 900 000 000 </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div
+         className="text-center p-3 text-secondary-white font-sourcePro"
+         style={{backgroundColor: "rgba(0, 0, 0, 0.2)"}}
+         >
+      © 2024 Copyright:
+      <a className="capitalize" href="https://mdbootstrap.com/"
+         >  Desigend and developed by <span>Natnael Eskinder</span>
+         </a>
+            </div>
+             </footer>
+            </div>
+        <div/>
+        </div> 
+    );
 }
  
 export default Footer;
