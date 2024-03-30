@@ -23,7 +23,7 @@ const NavBar = () => {
         <nav className="bg-cover sticky top-0 flex-all w-screen z-40 h-16 bg-secondary-white shadow-lg flex-all-center px-6 md:px-10 xl:px-xlPadd lg:px-20">
             <div id="anima" style={displayNav} className="px-6 transition flex-col flex absolute top-0 z-50 w-2/3 h-screen bg-secondary-white">
                 <div className="flex justify-between my-5">
-                    <img src={logo} alt="" className="w-28" />
+                <Link to="/"> <img onClick={closeNav} src={logo} alt="" className="w-28" /></Link>
                     <img src={closeimg} onClick={closeNav} alt="" className="w-8 h-8 cursor-pointer" />
                 </div>
                 <ul  className="w-full text-navfont font-playPlayfair text-primary ">
@@ -66,7 +66,7 @@ const NavBar = () => {
                 </div>
                 <div>
                     <Link to="/">
-                        <img src={logo} alt="" className="w-32 md:w-48" />
+                        <img src={logo} onClick={closeNav} alt="" className="w-32 md:w-48" />
                     </Link>
                 </div>
                 <div className="flex gap-4">
