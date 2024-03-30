@@ -1,6 +1,8 @@
 import React from 'react';
-import { Link } from "react-router-dom/cjs/react-router-dom.min";
-
+import fb  from "./images/facebook-round-svgrepo-com.svg"
+import ig  from "./images/instagram-round-svgrepo-com.svg"
+import tw  from "./images/tiktok-svgrepo-com.svg"
+import gm  from "./images/telegram-svgrepo-com.svg"
 const Footer = () => {
 
      
@@ -25,25 +27,19 @@ const Footer = () => {
       {/* <!-- Left -->
 
       <!-- Right --> */}
-      <div className='hidden '>
-        <Link to="/" className="text-white me-4">
-          <i className="fab fa-facebook-f"></i>
-        </Link>
-        <Link to="/" className="text-white me-4">
-          <i className="fab fa-twitter"></i>
-        </Link >
-        <Link to="/"className="text-white me-4">
-          <i class="fab fa-google"></i>
-        </Link >
-        <Link to="/" className="text-white me-4">
-          <i class="fab fa-instagram"></i>
-        </Link >
-        <Link to="/" className="text-white me-4">
-          <i className="fab fa-linkedin"></i>
-        </Link >
-        <Link to="/" className="text-white me-4">
-          <i class="fab fa-github"></i>
-        </Link >
+      <div className='flex'>
+        <a href="https://www.facebook.com/Geezshoess/" className="text-white md:me-4 me-3">
+         <img src={fb} alt="" className='fab' />
+        </a>
+        <a href="https://www.instagram.com/geezshoes/" className="text-white md:me-4 me-3">
+        <img src={ig} alt="" className='fab' />
+        </a>
+        <a href="https://www.tiktok.com/@geez_shoes"className="text-white md:me-4 me-3">
+        <img src={tw} alt="" className='fab' />
+        </a>
+        <a href="https://t.me/geezshoes" className="text-white md:me-4 me-3">
+        <img src={gm} alt="" className='fab' />
+        </a >
       </div>
       {/* <!-- Right --> */}
     </section>

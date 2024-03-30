@@ -19,20 +19,23 @@ const Scroll = ({Data}) => {
              
              
               {
-                data.map((rd)=>{
+                data.map((rd )=>{
                     return(
-                        
-                        <div  className="w- border-black-3   gap-5 h-fit " key={rd.id}>
-                        <Link to="/chart{rd.id}">
+                        <div key={rd.id} className="w- border-black-3   gap-5 h-fit " >
+                        <Link to={{
+            pathname: '/chart',
+            state: {
+              item : rd , 
+            }}}>
                         <img src={require(`${ rd.name + rd.img + ".jpg" }`)} alt="" className=" h-64 md:h-72 xl:h-96  m-auto"  />
                         { rd.color.length > 0  && <p className="text-smm mt-3 md:text-lgg lg:text-lgg xl:text-navfont font-playPlayfair uppercase   text-light-green ">View Colors</p> }
                         { rd.color.length === 0 && <p className="text-smm mt-3 md:text-lgg lg:text-lgg xl:text-navfont font-playPlayfair uppercase   text-light-green ">No Color</p> }
                         </Link>
                         <div style={{backgroundColor : "#"}} className="flex justify-center items-center  gap-2 mt-1 h-6  w-fit m-auto ">
                             {
-                                rd.color.map((cl)=>{
+                                rd.color.map((cl , index)=>{
                                     return(
-                                        <div  onClick={ ()=>{ Change( rd.id , cl)} }  className={ cl + " w-5 h-5  rounded-full  cursor-pointer"}></div> 
+                                        <div key={index} onClick={ ()=>{ Change( rd.id , cl)} }  className={ cl + " w-5 h-5  rounded-full  cursor-pointer"}></div> 
                                     )
                                 })
                             }                        </div>

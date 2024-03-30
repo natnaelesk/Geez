@@ -349,3 +349,12 @@ background: #E89461;
 }
 
 
+.fab {
+    width: 40px;
+  }
+
+  @media (max-width: 700px) {
+    .fab {
+        width: 30px;
+    }
+  }
