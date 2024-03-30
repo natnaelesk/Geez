@@ -37,7 +37,7 @@ const likeIt = () => {
     setItem(prevItem => ({ ...prevItem, like: "0" }));
   }; 
     return ( 
-        <div>
+        <div className="overflow-x-hidden w-screen">
             <div className=" w-full h-20 mt-2 flex justify-between items-end px-smPadd lg:px-20 xl:px-48">
             <img onClick={goBack} src={back} alt="" className="w-8 md:w-10 cursor-pointer"/>
             

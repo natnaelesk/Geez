@@ -27,20 +27,20 @@ const NavBar = () => {
                     <img src={closeimg} onClick={closeNav} alt="" className="w-8 h-8 cursor-pointer" />
                 </div>
                 <ul  className="w-full text-navfont font-playPlayfair text-primary ">
-                <Link to="/boots"><li style={{color:"#000 "}} className="w-full h-16 flex items-center justify-between">Boots
+                <Link to="/boots"><li onClick={closeNav} style={{color:"#000 "}} className="w-full h-16 flex items-center justify-between">Boots
                         <div className="w-3 h-3 border-r border-t rotate-45"></div>
                     </li></Link>
-                    <Link to="/casual"><li style={{color:"#000 "}} className="w-full h-16 flex items-center justify-between">Casual
+                    <Link to="/casual"><li onClick={closeNav}  style={{color:"#000 "}} className="w-full h-16 flex items-center justify-between">Casual
                         <div className="w-3 h-3 border-r border-t rotate-45"></div>
                     </li></Link>
-                    <Link to="/collection"><li style={{color:"#000 "}} className="w-full h-16 flex items-center justify-between">Collections
+                    <Link to="/collection"><li onClick={closeNav}  style={{color:"#000 "}} className="w-full h-16 flex items-center justify-between">Collections
                         <div className="w-3 h-3 border-r border-t rotate-45"></div>
                     </li></Link>
                     <Link to={{
             pathname: '/chart',
             state: {
               item : rec[1][0] , 
-            }}} ><li style={{color:"#000 "}} className="w-full h-16 flex items-center justify-between">Cart
+            }}} ><li style={{color:"#000 "}} onClick={closeNav}  className="w-full h-16 flex items-center justify-between">Cart
                         <div className="w-3 h-3 border-r border-t rotate-45"></div>
                     </li></Link>
                 </ul>
