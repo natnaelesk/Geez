@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Geez/static/css/main.6ee19ae7.css",
-    "main.js": "/Geez/static/js/main.40898ef7.js",
+    "main.css": "/Geez/static/css/main.76230f2a.css",
+    "main.js": "/Geez/static/js/main.1ecfcce6.js",
     "static/js/592.b34fa948.chunk.js": "/Geez/static/js/592.b34fa948.chunk.js",
     "static/media/video.mp4": "/Geez/static/media/video.848a1f6bc475c6d6eda2.mp4",
     "static/media/pexels-terje-sollie-298864.jpg": "/Geez/static/media/pexels-terje-sollie-298864.89e719748a2195377067.jpg",
@@ -39,21 +39,25 @@
     "static/media/search.svg": "/Geez/static/media/search.19bc40c4d3ebafd594dfd3267cdfe3e5.svg",
     "index.html": "/Geez/index.html",
     "static/media/call.svg": "/Geez/static/media/call.072fc79bd19b5fbcb90856a5403b661f.svg",
+    "static/media/tiktok-svgrepo-com.svg": "/Geez/static/media/tiktok-svgrepo-com.45f874ad90c68d0b2f3f9b1e9aac427a.svg",
+    "static/media/instagram-round-svgrepo-com.svg": "/Geez/static/media/instagram-round-svgrepo-com.e3a20e2585ce69ce915aa539f94282a6.svg",
+    "static/media/telegram-svgrepo-com.svg": "/Geez/static/media/telegram-svgrepo-com.0d019c97e35a74da3382e725fe1183f2.svg",
     "static/media/close.svg": "/Geez/static/media/close.91165d2ae0b00c581030.svg",
     "static/media/closeRed.svg": "/Geez/static/media/closeRed.6b47f4460d948f99650c.svg",
     "static/media/ig.svg": "/Geez/static/media/ig.fcd02b3417c039298ff7.svg",
     "static/media/back.svg": "/Geez/static/media/back.03c4d3a1eb7a05ffe726de3ea62a64cd.svg",
+    "static/media/facebook-round-svgrepo-com.svg": "/Geez/static/media/facebook-round-svgrepo-com.4fbbdc8cbcf6f251d9f1ce731783e427.svg",
     "static/media/shopBag.svg": "/Geez/static/media/shopBag.6d9d1c19366b2f3a3c1b6c83ae83b12d.svg",
     "static/media/rightBack.svg": "/Geez/static/media/rightBack.9772273398cb7e8b87cf98fb9bd08e84.svg",
     "static/media/heart-svgrepo-com(2) copy.svg": "/Geez/static/media/heart-svgrepo-com(2) copy.a97c6d5791d1febc4dd5ea5f7cef763e.svg",
     "static/media/profile.svg": "/Geez/static/media/profile.4b6f7396a421c7fcee6ca90fc0024217.svg",
     "static/media/menu-svgrepo-com.svg": "/Geez/static/media/menu-svgrepo-com.22a05970d93e0f98250a9ec63d516662.svg",
-    "main.6ee19ae7.css.map": "/Geez/static/css/main.6ee19ae7.css.map",
-    "main.40898ef7.js.map": "/Geez/static/js/main.40898ef7.js.map",
+    "main.76230f2a.css.map": "/Geez/static/css/main.76230f2a.css.map",
+    "main.1ecfcce6.js.map": "/Geez/static/js/main.1ecfcce6.js.map",
     "592.b34fa948.chunk.js.map": "/Geez/static/js/592.b34fa948.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6ee19ae7.css",
-    "static/js/main.40898ef7.js"
+    "static/css/main.76230f2a.css",
+    "static/js/main.1ecfcce6.js"
   ]
 }
