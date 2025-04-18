@@ -114,7 +114,7 @@ const Footer = () => {
          style={{backgroundColor: "rgba(0, 0, 0, 0.2)"}}
          >
       © 2024 Copyright:
-      <a className="capitalize" href="https://mdbootstrap.com/"
+      <a className="capitalize" href="https://natnael-esk.vercel.app"
          >  Desigend and developed by <span>Natnael Eskinder</span>
          </a>
             </div>
